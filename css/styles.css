@@ -21,6 +21,7 @@ body {
     justify-content:center;
     margin-bottom: 30%;
     box-shadow: rgba(83, 53, 206, 0.1) 0px 2px 4px;
+    border: black
 }
 
 .basicScreen {
