@@ -18,6 +18,8 @@ body {
     width: 80em;
     margin-top: 30%;
     border-radius: 0.4em;
+    justify-content: center;
+    margin-bottom: 30%;
 }
 
 .basicScreen {
@@ -34,7 +36,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 
     border-radius: 0.9em;
