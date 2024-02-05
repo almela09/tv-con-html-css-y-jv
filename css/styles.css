@@ -1,28 +1,30 @@
 body {
     margin: 0;
     padding: 0;
-  
+
     height: 100vh;
     width: 100vw;
-  
+
     background-color: beige;
-  
+
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  #screen {
+}
 
-    height: 60em;
+#screen {
+
+    height: 45em;
     width: 80em;
-
+    margin-top: 30%;
     border-radius: 0.4em;
 }
 
 .basicScreen {
     background-color: black;
-    
+
+
+
 }
 
 #remote {
@@ -45,7 +47,7 @@ body {
 .button {
 
     height: 2em;
-    width: 2em; 
+    width: 2em;
     border-radius: 50%;
 
     background-color: red;
@@ -58,7 +60,7 @@ body {
     transition: 0.2s;
 }
 
-.button:hover{
+.button:hover {
     transition: 0.2s;
     background-color: darkred;
 }
@@ -79,15 +81,14 @@ body {
     background-color: gold;
 }
 
-.canal5{
+.canal5 {
     background-color: rgb(234, 4, 73);
 }
 
-.canal6{
+.canal6 {
     background-color: lightsalmon;
 }
 
-.onOff{
-    background-color:grey;
+.onOff {
+    background-color: grey;
 }
- 
