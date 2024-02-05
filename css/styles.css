@@ -65,8 +65,10 @@ body {
 }
 .btn-row{
     display:flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12% 12% 10px 12%;
+    
 }
 
 .remote{
@@ -98,7 +100,7 @@ body {
 }
 #onOff:hover{
     transition: 0.2s;
-    background-color: darkred;   
+    background-color:darkred ;
 }
 .btn:hover {
     transition: 0.2s;
