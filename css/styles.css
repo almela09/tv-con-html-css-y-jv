@@ -20,6 +20,7 @@ body {
     border-radius: 0.4em;
     justify-content: center;
     margin-bottom: 30%;
+    box-shadow: rgba(83, 53, 206, 0.1) 0px 2px 4px;
 }
 
 .basicScreen {
@@ -46,7 +47,7 @@ body {
     margin-left: 10em;
 }
 
-.button {
+.btn {
 
     height: 2em;
     width: 2em;
@@ -57,12 +58,44 @@ body {
     color: white;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     cursor: pointer;
     transition: 0.2s;
 }
+.btn-row{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
 
-.button:hover {
+.remote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#remote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#onOff{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+
+    background-color: red;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover {
     transition: 0.2s;
     background-color: darkred;
 }
