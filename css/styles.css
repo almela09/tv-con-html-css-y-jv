@@ -18,16 +18,13 @@ body {
     width: 80em;
     margin-top: 30%;
     border-radius: 0.4em;
-    justify-content: center;
+    justify-content:center;
     margin-bottom: 30%;
     box-shadow: rgba(83, 53, 206, 0.1) 0px 2px 4px;
 }
 
 .basicScreen {
     background-color: black;
-
-
-
 }
 
 #remote {
@@ -37,14 +34,15 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 
     border-radius: 0.9em;
 
     background-color: rgb(47, 46, 40);
 
-    margin-left: 10em;
+    position:relative;
+    margin-left: 5%;
 }
 
 .btn {
@@ -58,11 +56,20 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
     cursor: pointer;
     transition: 0.2s;
+    
 }
+
+.btn-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .btn-row{
     display:flex;
     justify-content: space-between;
