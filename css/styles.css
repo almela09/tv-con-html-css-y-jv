@@ -116,27 +116,30 @@ body {
 }
 
 .canal1 {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .canal2 {
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 .canal3 {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
 
 .canal4 {
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .canal5 {
-    background-color: rgb(234, 4, 73);
+    /* background-color: rgb(234, 4, 73); */
 }
 
 .canal6 {
-    background-color: lightsalmon;
+ background-image:url('https://www.mundoplus.tv/wp-content/uploads/2021/04/generica_elem_cpfrance.jpg'); 
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
 }
 
 .onOff {
