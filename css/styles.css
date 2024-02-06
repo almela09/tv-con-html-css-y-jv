@@ -83,3 +83,39 @@
     margin: 12% 12% 10px 12%;
 }
 
+.remote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#remote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#onOff{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 2em;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#onOff:hover{
+    transition: 0.2s;
+    background-color: darkred;
+}
+
+.btn:hover{
+    transition: 0.2s;
+    background-color: darkred;
+}
