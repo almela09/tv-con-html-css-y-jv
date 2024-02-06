@@ -22,7 +22,8 @@ body {
     justify-content: center;
     margin-bottom: 30%;
     box-shadow: rgba(83, 53, 206, 0.1) 0px 2px 4px;
-    border: black;
+    border: solid 1.5em black;
+    
 
 }
 
@@ -95,6 +96,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    background: radial-gradient(circle, #0c0d12, #32405a);
 }
 
 #onOff {
