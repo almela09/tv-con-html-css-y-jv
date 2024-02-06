@@ -1,0 +1,26 @@
+
+.body{
+    margin:0;
+    padding:0;
+
+    height: 100vh;
+    width: 100vh;
+
+    background-color: rgb(121, 153, 170);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen{
+    position: relative;
+    height: 45em;
+    margin-top: 30%;
+    border-radius: 0.4em;
+    justify-content: center;
+    margin-bottom: 30%;
+    box-shadow: rgba(83, 53, 206, 0.1) 0px 2px 4px;
+    border: black;
+
+}
