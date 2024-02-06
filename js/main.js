@@ -10,7 +10,15 @@ function toggleTv(){
 
     const screen = document.getElementById('screen');
     const canalNumero = document.getElementById('canalNumero');
-   
+    if(tvEncendida){
+        screen.classList.remove('off');
+        screen.classList.add('basicScreen');
+        canalNumero.textContent = '';
+
+    }else{
+      screen.className = 'basicScreen off';
+      canalNumero.textContent = '';  
+    }
 }
 
 
