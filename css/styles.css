@@ -21,10 +21,13 @@ body {
     border-radius: 0.4em;
     justify-content: center;
     margin-bottom: 30%;
-    box-shadow: rgba(83, 53, 206, 0.1) 0px 2px 4px;
     border: solid 1.5em black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
     
-
 }
 
 /* canal-numero: modificaciones para que salga el numerito en la pantalla */
@@ -37,7 +40,7 @@ body {
 }
 
 .basicScreen {
-    background-color: rgb(74, 65, 65);
+    background-color: rgb(95, 91, 111);
 }
 
 #remote {
