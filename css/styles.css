@@ -24,3 +24,12 @@
     border: black;
 
 }
+
+/* canal-numero: modificaciones para que salga el numerito en la pantalla */
+.canal-numero{
+    color: white;
+    font-size: 10em;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
