@@ -129,7 +129,25 @@ body {
 .off {
     background-color: rgb(127, 99, 99); /* O podrías usar display: none; para "apagar" la pantalla */
 }
-  
+.canal1 {
+    background-color: aqua;
+}
+
+.canal2 {
+    background-color: purple;
+}
+
+.canal3 {
+    background-color: greenyellow;
+}
+
+.canal4 {
+    background-color: gold;
+}
+
+.canal5 {
+    background-color: rgb(234, 4, 73);
+} 
 .canal1, .canal2, .canal3, .canal4, .canal5, .canal6{
     background-size: cover;
     background-position: center;
