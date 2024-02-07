@@ -62,6 +62,7 @@ body {
     margin-left: 5%;
 }
 
+/* cambiar color de btn y dar algo de estilo */
 .btn {
     height: 2em;
     width: 2em;
@@ -97,6 +98,7 @@ body {
     align-items: center;
 }
 
+/* tengo otra id arriba, igual podría poner todas estas movidas dentro de la misma */
 #remote {
     display: flex;
     flex-direction: column;
@@ -135,7 +137,7 @@ body {
 
 .off {
     background-color: rgb(7, 7, 7);
-    /* O podrías usar display: none; para "apagar" la pantalla */
+    /* O podrías usar display: none; para "apagar" la pantalla (RES) */
 }
 
 .canal1 {
