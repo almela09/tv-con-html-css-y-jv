@@ -32,7 +32,7 @@
 
 ### Deploy
  <div align="center">
-    <a href="https:"><strong>Tv Interactiva</strong></a> 
+    <a href="https://almela09.github.io/tv-con-html-css-y-jv/"><strong>Tv Interactiva</strong></a> 
 </div>
 
 ### Instalación local :wrench:
@@ -52,8 +52,8 @@
 
 
 ### Próximas funcionalidades :white_check_mark:
- :rocket: barra de volumen.
- :rocket: silenciar volumen.
+ :rocket: Barra de volumen.
+ :rocket: Silenciar volumen.
 
 ### Vistas :eyes:
  <img src="/img/vista-tv.png">
