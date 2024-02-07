@@ -61,6 +61,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     position: relative;
     margin-left: 5%;
+    
 }
 
 /* cambiar color de btn y dar algo de estilo */
@@ -77,6 +78,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     align-items: center;
     cursor: pointer;
     transition: 0.2s;
+    margin: 6px;
 }
 
 .btn-container {
