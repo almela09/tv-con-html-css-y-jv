@@ -37,7 +37,7 @@ function cambiarCanal(canal) {
 document.getElementById('onOff').addEventListener('click', toggleTv);
 
 
-// CANALES CAMBIO
+// CANALES CAMBIO (recordatorio: .querySelectorAll--> para usar selectores del CSS e identificar los elementos.)
 const canales = document.querySelectorAll('.btn:not(.onOff)');
 
 //.btn:not(.onOff) ----> es una pseudoclase que excluye a los selectores que tienen la clase onOff
@@ -54,5 +54,6 @@ canales.forEach((boton) => {
 //fallito """"importante""""""": cuando enciende debería quedarse en el canal donde se quedo la última vez.
 
 //volumen si me da tiempo, cosa que dudo.
+
 
 
