@@ -3,8 +3,6 @@
 
 let tvEncendida = false;
 
-// Toggle
-
 function toggleTv() {
     tvEncendida = !tvEncendida;
 

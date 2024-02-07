@@ -36,10 +36,11 @@ body {
 /* canal-numero: modificaciones para que salga el numerito en la pantalla */
 .canal-numero {
     color: white;
-    font-size: 10em;
+    font-size: 3em;
     position: absolute;
     bottom: 20px;
     right: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .basicScreen {
