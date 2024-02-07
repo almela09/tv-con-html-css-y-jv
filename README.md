@@ -16,7 +16,7 @@
 - Autor
 
 ### ¿De que va el proyecto? :computer:
- 
+ Proyecto 2. Tv interactiva propuesta por GeeksHubs. Se trata de una Tv con mando en la cual puedes cambiar de canal y apagar y encender la tv.
 
 ### Stack 
 - HTML
@@ -43,16 +43,16 @@
 
 ### Bugs conocidos :collision:
 
-:x: 
+:x: Pantalla en gris al encender la tv, no guarda el último canal.
 
-:x: 
+:x: Le cuesta encender y en ocasiones hay que pulsar varias veces para que se encienda la Tv.
 
-:x: 
+:x: No es responsive.
 
 
 ### Próximas funcionalidades :white_check_mark:
- :rocket: 
- :rocket: 
+ :rocket: barra de volumen.
+ :rocket: silenciar volumen.
 
 ### Vistas :eyes:
  <img src="">

@@ -3,7 +3,7 @@
 
 let tvEncendida = false;
 
-function toggleTv() {
+const cambiarEstadoTv=()=> {
     tvEncendida = !tvEncendida;
 
     const screen = document.getElementById('screen');
@@ -17,12 +17,12 @@ function toggleTv() {
         screen.className = 'basicScreen off';
         canalNumero.textContent = '';
     }
-}
+};
 
 // Cambiar el canal de tv-fecha-numero canal
 //innerHtml = para modificar elementos del html, añadir movidas desde el js.
 
-function cambiarCanal(canal) {
+const cambiarCanal=(canal)=> {
     if (!tvEncendida) return;
     const screen = document.getElementById('screen');
     const canalNumero = document.getElementById('canalNumero');
@@ -31,8 +31,8 @@ function cambiarCanal(canal) {
     canalNumero.innerHTML = `Canal ${canal} ${fecha}`;
     screen.classList.add(`canal${canal}`);
 
-}
-document.getElementById('onOff').addEventListener('click', toggleTv);
+};
+document.getElementById('onOff').addEventListener('click',cambiarEstadoTv );
 
 
 // CANALES CAMBIO (recordatorio: .querySelectorAll--> para usar selectores del CSS e identificar los elementos.)
