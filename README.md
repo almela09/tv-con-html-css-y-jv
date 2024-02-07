@@ -26,13 +26,13 @@
 <p align="center">
 <img src="/img/html5.png" alt="html5" width="70" height = "70">
 <img src="/img/css.png" alt="html5" width="70" height = "70">
-<img src="/img/bootstrap.png" alt="html5" width="70" height = "70">
+<img src="/img/javascript.png" alt="html5" width="70" height = "70">
 
 </p>
 
 ### Deploy
  <div align="center">
-    <a href="https:"><strong>Burguer Home</strong></a>
+    <a href="https:"><strong>Tv Interactiva</strong></a> 
 </div>
 
 ### Instalación local :wrench:
@@ -50,12 +50,13 @@
 :x: No es responsive.
 
 
+
 ### Próximas funcionalidades :white_check_mark:
  :rocket: barra de volumen.
  :rocket: silenciar volumen.
 
 ### Vistas :eyes:
- <img src="">
+ <img src="/img/vista-tv.png">
 
 ### Autor :grin:
 
